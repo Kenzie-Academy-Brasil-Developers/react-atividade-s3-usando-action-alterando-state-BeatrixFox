@@ -1,9 +1,13 @@
 import { Container } from "./style";
+import UserCard from "./components/UserCard/UserCard";
 
 function App() {
   return (
     <Container>
-      <main>Ola</main>
+      <main>
+        <h1>Usando Redux</h1>
+        <UserCard />
+      </main>
     </Container>
   );
 }
